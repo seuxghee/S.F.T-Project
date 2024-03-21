@@ -1,4 +1,5 @@
 # FlutterStudy
+<p> 플러터를 이용한 앱개발 스터디</p>
 <hr>
 <h2>Member</h2>
 <body>
