@@ -1,5 +1,5 @@
-# FlutterStudy
-<p> 플러터를 이용한 앱개발 스터디</p>
+# S.F.T-Study
+<p> 안드로이드 스튜디오를 이용한 앱개발 스터디</p>
 <hr>
 <h2>Member</h2>
 <body>
