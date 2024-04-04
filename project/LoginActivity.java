@@ -13,7 +13,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
+        //버튼 리스너 부여 , member 액티비티로 전환
         Button button9 = (Button) findViewById(R.id.button9);
         button9.setOnClickListener(new View.OnClickListener(){
             @Override
