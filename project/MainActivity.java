@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
-        }, 4000);
+        }, 4000);  // 4초뒤 로그인 화면으로 전환
     }
 
 }
