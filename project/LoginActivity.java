@@ -22,6 +22,14 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+           Button button7 = (Button) findViewById(R.id.button7);
+        button7.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
+            } //button7 누르면 Home 액티비티로 전환
+        });
 
     }
 }
