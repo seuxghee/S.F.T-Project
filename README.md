@@ -10,6 +10,7 @@
 <hr>
 <h2>공유자료</h2>
   <div> note : 계획 및 발표자료 </div>
-  <div>project :  Activity 자바 코드 </div>  
+  <div> project :  Activity 자바 코드 </div>
+  <div> Activity Img :  Activity 화면 이미지 </div>  
 </body>
 
