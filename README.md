@@ -1,5 +1,5 @@
 # S.F.T-APP
-<p> 안드로이드 스튜디오를 이용한 앱개발 프로젝트</p>
+<p> 본 repo는 안드로이드 스튜디오를 이용한 앱개발 프로젝트 공유 저장소입니다.</p>
 <hr>
 <body>
 <h2>참여 멤버</h2>
@@ -15,5 +15,7 @@
 <hr>
 <h2>Tool</h2>
   <a href ="https://developer.android.com/studio?hl=ko">Android studio</a>
+<hr>
+*무단 배포 금지
 </body>
 
