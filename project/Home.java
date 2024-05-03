@@ -25,7 +25,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(), CameraActivity.class);
-                startActivity(intent);
+                startActivity(intent); // button3 누르면 CamerActivity로 화면 전환
             }
 
         });
@@ -34,7 +34,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), DictionaryActivity.class);
-                startActivity(intent);
+                startActivity(intent); //button4 누르면 DictionaryActivity로 전환
             }
         });
 
