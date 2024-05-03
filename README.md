@@ -12,6 +12,7 @@
   <div> note : 계획 및 발표자료 </div>
   <div> project :  Activity 자바 코드 </div>
   <div> Activity Img :  Activity 화면 이미지 </div>  
+  <div> layout:  Activity xml 코드 </div>  
 <hr>
 <h2>Tool</h2>
   <a href ="https://developer.android.com/studio?hl=ko">Android studio</a>
