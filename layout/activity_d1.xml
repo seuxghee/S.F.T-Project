@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D1Activity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="372dp"
+        android:layout_height="697dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"
+        app:srcCompat="@drawable/edittext_rounded_corner_rectangle" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="152dp"
+        android:layout_height="146dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon1" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="193dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/mitme"
+        android:text="여드름의 원인, 증상, 치료법이 궁금하다면 버튼을 눌러봐요!"
+        android:textAlignment="center"
+        android:textColor="#8B348B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="231dp"
+        android:layout_height="213dp"
+        android:layout_marginBottom="40dp"
+        android:tint="#8C348C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dialog" />
+
+    <ImageButton
+        android:id="@+id/imgButton4"
+        android:layout_width="142dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#F2E2F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shape_for_circle_button" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/mitme"
+        android:text="원인"
+        android:textColor="#8B348B"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgButton4" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="147dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#F2E2F8"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imgButton4"
+        app:srcCompat="@drawable/shape_for_circle_button" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/mitme"
+        android:text="증상"
+        android:textAlignment="center"
+        android:textColor="#8A348A"
+        android:textColorLink="#8A348A"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton5"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="145dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#F2E2F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgButton4"
+        app:srcCompat="@drawable/shape_for_circle_button" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/mitme"
+        android:text="치료법"
+        android:textAlignment="center"
+        android:textColor="#8B348B"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+        app:layout_constraintTop_toTopOf="@+id/imageButton6" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="281dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="68dp"
+        android:fontFamily="@font/mitme"
+        android:text="대표적 여드름 3가지 종류 알아보기"
+        android:textColor="#8B348B"
+        android:textColorLink="#8B348B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="46dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#F1E1F7"
+        android:tint="#8B348B"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
