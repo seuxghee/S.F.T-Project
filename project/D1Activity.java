@@ -28,7 +28,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), DictionaryActivity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // 뒤로 돌아가는 버튼 
             }
         });
 
@@ -37,7 +37,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1AActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 원인 버튼을 눌렀을 때 화면전환
             }
         });
         ImageButton imageButton5 = (ImageButton) findViewById(R.id.imageButton5);
@@ -45,7 +45,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1BActivity.class);
-                startActivity(intent);
+                startActivity(intent); //증상 버튼을 눌렀을 때 화면 전환환
             }
         });
         ImageButton imageButton6 = (ImageButton) findViewById(R.id.imageButton6);
@@ -53,7 +53,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1CActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 치료법 버튼을 눌렀을 때 화면 전환
             }
         });
 
@@ -62,7 +62,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D11Activity.class);
-                startActivity(intent);
+                startActivity(intent); //돋보기 버튼을 눌렀을 때 화면전환환
             }
         });
 
