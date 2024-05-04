@@ -23,7 +23,7 @@ public class D1AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),D1Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // 뒤로 돌아가는 버튼
             }
         });
 
