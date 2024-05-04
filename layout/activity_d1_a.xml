@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".D1AActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="366dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491"
+        app:srcCompat="@drawable/edittext_rounded_corner_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="229dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginBottom="44dp"
+        android:tint="#8C348C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:srcCompat="@drawable/dialog" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="149dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/mitme"
+        android:text="여드름의 원인이에요!"
+        android:textAlignment="center"
+        android:textColor="#8B348B"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="361dp"
+        android:layout_height="386dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" 호르몬 변화, 세균 감염, 유전성 요인등으로 발생한다고 여기지지만, 아직까지는 정확한 원인을 모르는 상태에요.  대체로 사춘기에 나타나는 여드름은 안드로겐이라는 남성호르몬에 자극받아 피지를 과다하게 내보내서 발생하지만  성인 여드름은 여성에게 많이 나타나며, 특히 생리 전에 주기적으로 악화돼요.  프로게스테론이라는 황체호르몬, 기름이 많거나 털구멍을 밀폐시키는 화장품 등이 원인 또는 악화 인자가 될 수 있어요.  정서적 긴강이나 스트레스, 수면 부족 등으로 부산피질 호르몬이 분비되어 피지선을 자극하면 여드름이 발생해요."
+        android:textAlignment="textStart"
+        android:textColor="#8B348B"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
