@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D1BActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="149dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="364dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="면포, 구진, 농포 등이 나타나고 심한 경우에는 결절이나 낭종이 생겨요. 면포란 피지가 축전되어 모낭이 팽창한 것이에요. 면포에는 모낭 입구가 열려 있어요. 면포에는 개방 면포와 패쇄 면포라는 두가지 종류가 있어요. 흔히 블랙헤드라고도 하는 개방 면포는 그간 축전되 피지의 색이 검게 보이는 것이에요. 패쇄면포는 표면이 닫혀 있는 면포로, 흔히 화이트헤드하고 해요. 면포가 오래되면 주위에 세균이 증식하고, 그 주위에 염증 세포가 모이면 붉은 여드름 구진, 곪는 여드름 농포를 형성해요. 이 정도가 심해지면 결절과 낭종 등이 부어있는 상태가 되기도해요."
+        android:textAlignment="textStart"
+        android:textColor="#8B348B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="259dp"
+        android:layout_height="186dp"
+        android:tint="#8C348C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.67"
+        app:srcCompat="@drawable/dialog" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:fontFamily="@font/mitme"
+        android:text="여드름 증상이에요!"
+        android:textAlignment="center"
+        android:textColor="#8B348B"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.371" />
+</androidx.constraintlayout.widget.ConstraintLayout>
