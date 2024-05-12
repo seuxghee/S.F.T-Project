@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D11AActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="459dp"
+        android:layout_height="735dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="68dp"
+            android:text="[원인]"
+            android:textColor="#8B348B"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="361dp"
+            android:layout_height="132dp"
+            android:text="피지의 분비가 과다하거나, 피지선의 활동이 지나치게 활발한 경우를 들 수 있어요.  피부 세포가 비정상적으로 산출되는 경우 또한 이에 해당될 수 있어요. "
+            android:textColor="#8B348B"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.192" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="264dp"
+            android:text="[치료법]"
+            android:textColor="#8B348B"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="358dp"
+            android:layout_height="107dp"
+            android:layout_marginStart="44dp"
+            android:text="의용 치료 :가장 일반적인 치료법으로 쓰이는 의용 치료법은 평소에 쓰는 피부 관리용품에 변화를 주는 것이에요.   피지 분비량을 조절하는 성분이 함유된 토너와 로션을 사용하는 방법이에요."
+            android:textColor="#8B348B"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="375dp"
+            android:layout_height="154dp"
+            android:layout_marginStart="44dp"
+            android:text="천연 치료법: 약물이나 화장품을 통한 치료가 심적 부담을 일으킨다면 천연 치료법을 고려해 보는 것도 좋은 방법이에요.  가장 대표적으로 알려진 방법은 “녹차”를 이용하는 것이에요.  녹차를 끈적하게 갈거나 전용 팩을 차가운 상태로 피부에 접촉시킴으로써 염증을 감소시킬 수 있어요. "
+            android:textColor="#8B348B"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.93" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="370dp"
+            android:layout_height="143dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="104dp"
+            android:text="내부 약물 치료 : 증상이 심각하다고 판단되는 경우에 고려해 볼만 한 사항이에요.  전용 항생제를 처방 받아 복용하여 피지의 분비를 조절하고, 염증을 억제하도록 하는 방법이에요.  항상제는 장기간 복용 시 인체에 좋지 않은 영향을 미치기 때문에 개인적으로 추전드리지 않아요."
+            android:textColor="#8B348B"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20"
+            app:layout_constraintVertical_bias="0.855" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="16dp"
+            android:background="#FAF8FA"
+            android:text="◀"
+            android:textAlignment="center"
+            android:textColor="#F2E2F8"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
