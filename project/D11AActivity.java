@@ -23,7 +23,7 @@ public class D11AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D11Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // D11Actiivity로 화면 전환
             }
         });
     }
