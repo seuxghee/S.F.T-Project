@@ -1,4 +1,4 @@
-package com.cookandroid.project;
+ㄷpackage com.cookandroid.project;
 
 import android.os.Bundle;
 
@@ -17,7 +17,7 @@ Button button2 = (Button) findViewById(R.id.button2);
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
-                startActivity(intent); // button2 누르면 다시 LoginActivity로 돌아감.
+                startActivity(intent); // button2 누르면 다시 LoginActivity로 화면전환
             }
         });
 
