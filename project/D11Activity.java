@@ -25,7 +25,7 @@ public class D11Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1Activity.class);
-                startActivity(intent); // 액티비티로 이동
+                startActivity(intent); // D1Activity 액티비티로 이동
             }
         });
 
