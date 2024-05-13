@@ -23,7 +23,7 @@ public class D1AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),D1Activity.class);
-                startActivity(intent); // 뒤로 돌아가는 버튼
+                startActivity(intent); //D1Activity로 화면 전환
             }
         });
 
