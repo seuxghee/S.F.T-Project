@@ -28,7 +28,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), DictionaryActivity.class);
-                startActivity(intent); // 뒤로 돌아가는 버튼 
+                startActivity(intent); // DicitionaryActivity로 화면 전환 
             }
         });
 
@@ -37,15 +37,14 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1AActivity.class);
-                startActivity(intent); // 원인 버튼을 눌렀을 때 화면전환
-            }
+                startActivity(intent); // D1AActivity로 화면 전환
         });
         ImageButton imageButton5 = (ImageButton) findViewById(R.id.imageButton5);
         imageButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1BActivity.class);
-                startActivity(intent); //증상 버튼을 눌렀을 때 화면 전환환
+                startActivity(intent); //D1BActivity로 화면 전환환
             }
         });
         ImageButton imageButton6 = (ImageButton) findViewById(R.id.imageButton6);
@@ -53,7 +52,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D1CActivity.class);
-                startActivity(intent); // 치료법 버튼을 눌렀을 때 화면 전환
+                startActivity(intent); // D1Activity로 화면 전환
             }
         });
 
@@ -62,7 +61,7 @@ public class D1Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D11Activity.class);
-                startActivity(intent); //돋보기 버튼을 눌렀을 때 화면전환환
+                startActivity(intent); //D11Activity로 화면 전환
             }
         });
 
