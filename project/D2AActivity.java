@@ -22,7 +22,7 @@ public class D2AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),D2Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); //D2Activity로 화면전환
             }
         });
     }
