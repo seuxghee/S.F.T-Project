@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D21CActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:text="[원인]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="336dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="140dp"
+        android:text="추위에 노출되어 갑작스런 온도 변화가 있는 경우 한랭 글로불린,  한랭 응집소 등 한랭 관련 물질이나 특이한 면역 글로불린 E가 체내에서 불필요하게 면역 반응을 일으켜서 피부에 두드러기가 생기는 것으로 추측하고 있어요. 즉, 온도가 급격히 떨어지거나 추운 날씨에 노출된 경우 두드러기 유발 물질이 분비되어 두드러기가 발생해요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="368dp"
+        android:text="[치료법]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="366dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="436dp"
+        android:text="추위에 대한 노출을 피하고 증상이 나타나면 항히스타민제를 복용해 증상을 예방하거나 완화시킬 수 있어요. 일반적인 용량의 항히스타민제 보다 고용량의 항히스타민제가 더 효과가 있으며  몇가지의 다른 항히스타민재를 혼합 복용해야하는 경우도 있어요. "
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
