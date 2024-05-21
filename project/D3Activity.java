@@ -38,7 +38,7 @@ public class D3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D3AActivity.class);
-                startActivity(intent);
+                startActivity(intent); //알레르기 원인으로 화면전환
             }
         });
 
@@ -46,7 +46,7 @@ public class D3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D3BActivity.class);
-                startActivity(intent);
+                startActivity(intent);//알레르기 증상으로 화면전환
             }
         });
 
@@ -54,15 +54,15 @@ public class D3Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D3CActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 알레르기 치료법으로 화면전환
             }
         });
 
         imageButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),D1Activity.class);
-                startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(),D31Activity.class);
+                startActivity(intent); // 세부적 알레르기 화면으로 화면전환
             }
         });
 
