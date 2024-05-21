@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D3AActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="349dp"
+        android:layout_height="283dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="사람들에게 특정 돌연변이가 흔하며 알레르기는 유전되는 경향이 있기 때문에 유전자가 관련되어 있어요. 대표적으로 환경적 요인, 이물질(알레르기 항원)에 대한 반복적인 노출, 음식, 오염물질(예:담배연기,배기 가스)가 있어요."
+        android:textAlignment="textStart"
+        android:textColor="#8B348B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="149dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon1" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="244dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="104dp"
+        android:tint="#8C348C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/dialog" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mitme"
+        android:text="알레르기 원인이에요!"
+        android:textAlignment="center"
+        android:textColor="#8B348B"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.395" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+</androidx.constraintlayout.widget.ConstraintLayout>
