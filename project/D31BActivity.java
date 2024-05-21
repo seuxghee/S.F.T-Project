@@ -23,7 +23,7 @@ public class D31BActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D31Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // 세부적 알레르기 화면으로 전환
             }
         });
     }
