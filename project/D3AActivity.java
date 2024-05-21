@@ -23,7 +23,7 @@ public class D3AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),D3Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // D3Activity 화면전환
             }
         });
 
