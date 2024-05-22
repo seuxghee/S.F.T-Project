@@ -38,7 +38,7 @@ public class D4Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D4AActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 습진 원인 화면으로 전환
             }
         });
 
@@ -46,7 +46,7 @@ public class D4Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D4BActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 습진 증상 화면으로 전환환
             }
         });
 
@@ -54,7 +54,7 @@ public class D4Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D4CActivity.class);
-                startActivity(intent);
+                startActivity(intent); //습진 치료법 화면으로 전환
             }
         });
 
@@ -62,7 +62,7 @@ public class D4Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),D41Activity.class);
-                startActivity(intent);
+                startActivity(intent); // 세부적 습진 화면으로 전환
             }
         });
 
