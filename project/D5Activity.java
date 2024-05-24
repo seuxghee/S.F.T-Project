@@ -38,7 +38,7 @@ public class D5Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D5AActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 무좀 원인 액티비티로 전환환
             }
         });
 
@@ -46,7 +46,7 @@ public class D5Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D5BActivity.class);
-                startActivity(intent);
+                startActivity(intent); //무좀 증상 액티비티로 전환
             }
         });
 
@@ -54,7 +54,7 @@ public class D5Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D5CActivity.class);
-                startActivity(intent);
+                startActivity(intent); //무좀 치료법 액티비티로 전환
             }
         });
 
@@ -62,7 +62,7 @@ public class D5Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),D51Activity.class);
-                startActivity(intent);
+                startActivity(intent); //세부적 무좀 액티비티로 전환
             }
         });
 
