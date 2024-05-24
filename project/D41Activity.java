@@ -26,7 +26,7 @@ public class D41Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D4Activity.class);
-                startActivity(intent);
+                startActivity(intent); // 습진 사전 액티비티로 전환
             }
         });
         ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
@@ -34,7 +34,7 @@ public class D41Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D41AActivity.class);
-                startActivity(intent);
+                startActivity(intent); //아토피 피부염 액티비티로 전환
             }
         });
         ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
@@ -42,7 +42,7 @@ public class D41Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),D41BActivity.class);
-                startActivity(intent);
+                startActivity(intent); //건성 습진 액티비티로 전환
             }
         });
         ImageView imageView7 = (ImageView) findViewById(R.id.imageView7);
@@ -50,7 +50,7 @@ public class D41Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D41CActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 접촉성 피부염 액티비티로 전환
             }
         });
 
