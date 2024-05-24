@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D41AActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="[원인]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="376dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:text="임상 증상도 피부 건조증, 습진 등으로 다양하게 나타나기 때문에 발병 원인이 어느 한 가지로만 설명 될 수는 없지만, 환경적인 요인, 유전적인 소인, 면역학적 반응 및 피부보호막의 이상 등이 주요 원인으로 여겨지고 있어요. 환경적인 요인으로는 산업화로 인한 매연 등 환경 공해 식품첨가물 사용의 증가, 서구식 주거 형태로 인한 카펫, 침대, 소파의 사용 증가, 실내 온도 상승으로 인한 집 먼지 진드기 등의 알레르기를 일으키는 원인 물질(알레르겐)의 증가 등이 있어요. 또한 실내에서 애완동물 키우는 일이 많아지면서 원인 물질에 노출되는 것도 원인이 될 수 있어요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="376dp"
+        android:text="[치료법]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="375dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:text="항히스타민제는 가려움증 완화를 위해 사용되며, 대부분 항히스타민제는 심한 부작용이 없는 비교적 안전한 약제이지만 졸리거나 입이 마르는 등의 부작용이 있을 수 있어요. "
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="383dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="520dp"
+        android:text="전신 스테로이드는 심한 아토피 피부염에서 전신 스테로이드제를 복용하는 경우가 있는데, 이는 빠른 호전을 보이는 장점이 있지만 줄이거나 끊게되면 증상이 급격히 악화되는 경향이 있고, 장기간 지속적으로 사용하면 전신 부작용의 가능성이 있으므로 아토피 피부염과 같은 만성적인 질환에서는 가급적 사용하지 않도록 해야하며, 병이 많이 악화되어 다른 약에 전혀 반응이 없는 경우나 빠른 효과가 필요한 경우에는 제한적으로 사용해요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
