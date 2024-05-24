@@ -23,7 +23,7 @@ public class D4AActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 Intent intent = new Intent(getApplicationContext(),D4Activity.class);
-                startActivity(intent);
+                startActivity(intent); //습진 사전 액티비티로 전환
             }
         });
 
