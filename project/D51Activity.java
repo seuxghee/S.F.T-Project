@@ -25,7 +25,7 @@ public class D51Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D5Activity.class);
-                startActivity(intent);
+                startActivity(intent); // 무좀 딕셔너리 액티비티로 전환
             }
         });
         ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
@@ -33,7 +33,7 @@ public class D51Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D51AActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 지간형 무좀 액티비티로 전환
             }
         });
         ImageView imageView5 = (ImageView) findViewById(R.id.imageView5);
@@ -41,7 +41,7 @@ public class D51Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),D51BActivity.class);
-                startActivity(intent);
+                startActivity(intent); //각화형 무좀 액티비티로 전환
             }
         });
         ImageView imageView7 = (ImageView) findViewById(R.id.imageView7);
@@ -49,7 +49,7 @@ public class D51Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D51CActivity.class);
-                startActivity(intent);
+                startActivity(intent); // 수포형 무좀 액티비티로 전환
             }
         });
 
