@@ -23,7 +23,7 @@ public class D41BActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D41Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // 세부적 피부병 화면으로 전환
             }
         });
 
