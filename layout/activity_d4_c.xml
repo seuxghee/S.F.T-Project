@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D4CActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="354dp"
+        android:layout_height="384dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="습진을 유발하는 환경에서 벗어나야 해요. 병원 치료는 비정상적인 습진은 예전의 피부로 돌아가게 하는 것이지, 피부가 물이나 세제에 강하도록 해주는 것이 아니기 때문에, 치료 후에 다시 집안일을 반복하여 손이 마를 일이 없게 되거나,세제 등으로 피부에 자극을 주는 행위를 지속하면 습진을 치료할 수 없어요. 물에 젖는 일을 할 때 비닐장갑을 착용하면 도움이 되지만, 장갑 밑에 땀이 차서 피부가 짓무를 수 있어요. 장갑 속에 흰 면장갑을 착용하는 것이 도움이 돼요. 피부염 치료에는 보습이 매우 중요하므로, 수시로 보습 크림이나 연고를 발라야 해요."
+        android:textAlignment="textStart"
+        android:textColor="#8B348B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="231dp"
+        android:layout_height="213dp"
+        android:layout_marginBottom="44dp"
+        android:tint="#8C348C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dialog" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="149dp"
+        android:layout_height="153dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:fontFamily="@font/mitme"
+        android:text="습진 치료법이에요!"
+        android:textAlignment="center"
+        android:textColor="#8B348B"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.413" />
+</androidx.constraintlayout.widget.ConstraintLayout>
