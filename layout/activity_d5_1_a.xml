@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D51AActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="[원인]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="370dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:text="발가락 사이 각질이 벗겨지고 하얗게 짓무르면서 악취가 날 경우 ‘지간형 무좀’을 의심해야 해요. 특히 발가락끼리 맞닿아 있는 세번째, 네번째 발가락 사이, 네 번째, 다섯 번째 발가락 사이는 피부 사상균이 자라기 가장 좋아요. "
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="376dp"
+        android:text="[치료법]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="370dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:text="발가락 사이 각질만 벗겨진 초기에는 항 진균제 연고를 꾸준히 바르는 것으로 치료할 수 있어요. 하지만 발바닥 전체에 걸쳐 각질이 벗겨지고 통증, 가려움이 심하면 피부과에서 처방 받은 항 진균제를 먹거나 바르도록 해야 해요. 지간형 무좀의 경우 발가락 사이가 습해지지 않도록 수시로 통풍을 해줘야 해요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

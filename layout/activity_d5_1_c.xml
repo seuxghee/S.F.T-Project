@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D51CActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="[원인]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="370dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:text="피부에 곰파장이 감염이 발생하는 것이에요. 감염은 주로 습하고 따뜻한 환경에서 곰팡이가 번하기 쉬운 조건 때문에 생겨요. 공용 샤워실이나 수영장 같은 곳에서 발이 노출되면 감염이 위험이 높아져요. 또한 개인위생 관리가 소홀하거나, 습한 양말이나 신발을 장시간 착용하는 경우에도 발병 위험이 증가해요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="376dp"
+        android:text="[치료법]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="370dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:text="수포형 무좀은 세균을 죽이는 항생제와 항 진균제를 함께 사용. 치료해야 해요. 세균 감염 위험을 줄이고 싶다면 항균 비누로 발을 닦는 게 도움이 될 수 있어요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

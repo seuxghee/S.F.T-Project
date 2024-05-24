@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEF7FF"
+    tools:context=".D51BActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="[원인]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="367dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:text="피부 사상군 감염은 발바닥 피부가 땀이나 습기에 노출되면 피부 사상군이 번식하기 쉬워져요. 특히 발 뒤뚬치는 각질층이 두껍고 땀샘이 많아 피부 사상군이 번식하기 좋은 장소에요."
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="367dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="232dp"
+        android:text="장기간 지속된 무좀 감염은 발가락 사이 무좀이나 발바닥 무좀 등 다른 무좀 유형이 오랜 기간 지속되면 발뒤꿈치에도 무좀균이 침범하여 각화형 무좀이 발생할 수 있어요.  "
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="376dp"
+        android:text="[치료법]"
+        android:textColor="#8B348B"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="370dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="420dp"
+        android:text="각화형 무좀은 항 진균 치료에 앞서 피부 연화제를 사용해 두꺼워진 피부와 각질층을 얇게 만들어야 해요. 항 진균제만 바를 경우 약물이 제대로 흡수되지 않아요. 장시간 지속된 무좀의 경우 오랜 기간 무좀이 생기고 없어지기를 반복하면서 피부에 변화가 발생한 것이므로 지속적인 치료가 필요 해요. "
+        android:textColor="#8B348B"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAF8FA"
+        android:text="◀"
+        android:textAlignment="center"
+        android:textColor="#F2E2F8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
