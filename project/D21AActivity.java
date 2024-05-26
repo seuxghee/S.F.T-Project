@@ -23,7 +23,7 @@ Button button2;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), D2Activity.class);
-                startActivity(intent); // hoe
+                startActivity(intent); // D2AActivity로 전환
             }
         });
     }
