@@ -35,7 +35,7 @@ public class MapActivity extends AppCompatActivity  implements OnMapReadyCallbac
 
 
         NaverMapSdk.getInstance(this).setClient(
-                new NaverMapSdk.NaverCloudPlatformClient("2zmtf0yg35"));
+                new NaverMapSdk.NaverCloudPlatformClient("CLIENT_ID")); //네이버 지도
 
     }
 
@@ -59,7 +59,7 @@ public class MapActivity extends AppCompatActivity  implements OnMapReadyCallbac
         naverMap.setLocationSource(locationSource);
         naverMap.setLocationTrackingMode(LocationTrackingMode.Follow);
 
-        Marker marker = new Marker();
+        Marker marker = new Marker(); //마커 근데 안뜬다 ...
         marker.setPosition(new LatLng(37.5670135, 126.9783740));
         marker.setMap(naverMap);
 
