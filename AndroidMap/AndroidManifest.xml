@@ -79,8 +79,8 @@
             android:resource="@array/preloaded_fonts" />
 
         <meta-data
-            android:name="com.naver.maps.map.2zmtf0yg35"
-            android:value="2zmtf0yg35"/>
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="CLIENT_ID"/>
 
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
