@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".D51CActivity" />
+        <activity android:name=".D51BActivity" />
+        <activity android:name=".D51AActivity" />
+        <activity android:name=".D51Activity" />
+        <activity android:name=".D41CActivity" />
+        <activity android:name=".D41BActivity" />
+        <activity android:name=".D41AActivity" />
+        <activity android:name=".D41Activity" />
+        <activity android:name=".D31CActivity" />
+        <activity android:name=".D31BActivity" />
+        <activity android:name=".D31AActivity" />
+        <activity android:name=".D31Activity" />
+        <activity android:name=".D5CActivity" />
+        <activity android:name=".D5BActivity"/>
+        <activity android:name=".D5AActivity" />
+        <activity android:name=".D4CActivity" />
+        <activity android:name=".D4BActivity" />
+        <activity android:name=".D4AActivity" />
+        <activity android:name=".D3CActivity" />
+        <activity android:name=".D3BActivity" />
+        <activity android:name=".D3AActivity" />
+        <activity android:name=".D21CActivity" />
+        <activity android:name=".D21BActivity" />
+        <activity android:name=".D21AActivity" />
+        <activity android:name=".D11CActivity" />
+        <activity android:name=".D11BActivity" />
+        <activity android:name=".D11AActivity" />
+        <activity android:name=".D21Activity" />
+        <activity android:name=".D2CActivity" />
+        <activity android:name=".D2BActivity" />
+        <activity android:name=".D2AActivity" />
+        <activity android:name=".D11Activity" />
+        <activity android:name=".D1CActivity" />
+        <activity android:name=".D1BActivity" />
+        <activity android:name=".D1AActivity" />
+        <activity android:name=".D5Activity" />
+        <activity android:name=".D4Activity" />
+        <activity android:name=".D3Activity" />
+        <activity android:name=".D2Activity" />
+        <activity android:name=".D1Activity" />
+        <activity android:name=".DictionaryActivity" />
+        <activity android:name=".CameraActivity" />
+
+        <activity android:name=".Home"/>
+        <activity android:name=".MemberActivity" />
+        <activity android:name=".LoginActivity" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.naver.maps.map.2zmtf0yg35"
+            android:value="2zmtf0yg35"/>
+
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+</manifest>
