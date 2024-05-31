@@ -42,7 +42,7 @@ public class MapActivity extends AppCompatActivity  implements OnMapReadyCallbac
         setContentView(R.layout.activity_map);
 
         NaverMapSdk.getInstance(this).setClient(
-                new NaverMapSdk.NaverCloudPlatformClient("2zmtf0yg35"));
+                new NaverMapSdk.NaverCloudPlatformClient("CLIENT_ID"));
 
         locationSource =
                 new FusedLocationSource(this, LOCATION_PERMISSION_REQUEST_CODE);
