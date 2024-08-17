@@ -1,20 +1,21 @@
 package com.cookandroid.project;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TabHost;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Home extends AppCompatActivity {
-
+    TabHost th;
     Button button3;
     Button button4;
+    Button button5;
+    Button button6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +25,8 @@ public class Home extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent(getApplicationContext(), CameraActivity.class);
-                startActivity(intent); // button3 누르면 CamerActivity로 화면 전환
+                Intent intent = new Intent(getApplicationContext(), CamerActivity.class);
+                startActivity(intent);
             }
 
         });
@@ -34,9 +35,24 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), DictionaryActivity.class);
-                startActivity(intent); //button4 누르면 DictionaryActivity로 전환
+                startActivity(intent);
             }
         });
-
+        Button button5 = (Button) findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(intent);
+            }
+        });
+        Button button6 = (Button) findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MyinfoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
